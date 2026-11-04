@@ -33,12 +33,12 @@
 <body>
 <main>
   <h1>NoLapse Privacy Policy</h1>
-  <p class="date">Effective date: 30 October 2026 · Developed by Bhargav</p>
+  <p class="date">Effective date: 2 November 2026 · Developed by Bhargav</p>
 
-  <p class="summary"><strong>In short:</strong> NoLapse does not collect, send, sell or share any of your data. Everything you enter stays in Chrome on your own computer.</p>
+  <p class="summary"><strong>In short:</strong> NoLapse does not collect, send, sell or share any of your data. Everything you enter stays on your own device: in Chrome on your computer, or in the NoLapse app on your Android phone.</p>
 
   <h2>What NoLapse is</h2>
-  <p>NoLapse is a Chrome extension that reminds you before bills, renewals, subscriptions and document expiry dates are due, and keeps a record of what you have paid. It is a reminder tool only. It does not make payments and does not connect to banks or any other service.</p>
+  <p>NoLapse is a Chrome extension and an Android app that remind you before bills, renewals, subscriptions and document expiry dates are due, and keeps a record of what you have paid. It is a reminder tool only. It does not make payments and does not connect to banks or any other service.</p>
 
   <h2>Information you enter</h2>
   <p>To work, NoLapse saves the details you type in:</p>
@@ -47,18 +47,19 @@
     <li>Payment history: which reminder you marked as paid or done, the date, and the amount if you entered one.</li>
     <li>Your settings, such as region, currency, alert time and theme.</li>
   </ul>
-  <p>This information is stored only in Chrome's extension storage (<code>chrome.storage.local</code>) on your computer. It is never sent to the developer or to anyone else. NoLapse asks you not to enter full card, policy, account or ID numbers, and never needs them.</p>
+  <p>This information is stored only on your device: in Chrome's extension storage (<code>chrome.storage.local</code>) on your computer, or in the Android app's private storage on your phone, which other apps cannot read. It is never sent to the developer or to anyone else. NoLapse asks you not to enter full card, policy, account or ID numbers, and never needs them.</p>
 
   <h2>What NoLapse does not do</h2>
   <ul>
     <li>No account or sign-in.</li>
-    <li>No servers: NoLapse makes no network requests of its own.</li>
+    <li>No servers: NoLapse makes no network requests of its own. The Android app does not even have permission to use the internet.</li>
     <li>No analytics, tracking, advertising or third-party code.</li>
-    <li>No access to the websites you visit: NoLapse has no website permissions.</li>
+    <li>No access to the websites you visit: the Chrome extension has no website permissions.</li>
+    <li>No cloud backup: the Android app opts out of Android's automatic Google Drive backup, so your reminders are not copied off your phone.</li>
     <li>No selling or sharing of data, and no use of data for credit or lending decisions.</li>
   </ul>
 
-  <h2>Permissions NoLapse uses</h2>
+  <h2>Permissions the Chrome extension uses</h2>
   <ul>
     <li><strong>storage</strong>: to save your reminders, payment history and settings on your computer.</li>
     <li><strong>alarms</strong>: to run the daily check at the time you choose.</li>
@@ -66,14 +67,22 @@
     <li><strong>sidePanel</strong>: to show NoLapse in Chrome's side panel.</li>
   </ul>
 
+  <h2>Permissions the Android app uses</h2>
+  <ul>
+    <li><strong>Notifications</strong>: to show alerts when something is due or overdue. Android asks you first, and you can turn this off at any time.</li>
+    <li><strong>Run at startup</strong> (receive boot completed): to put your scheduled alerts back after the phone restarts.</li>
+    <li><strong>Prevent phone from sleeping</strong> (wake lock): so an alert can be shown while the phone is idle.</li>
+  </ul>
+  <p>The Android app does not request internet, contacts, location, camera, microphone, phone or storage permissions.</p>
+
   <h2>Optional Google Calendar button</h2>
-  <p>This feature is off by default. If you turn it on in Settings and then click "Add to Google Calendar" for a reminder, NoLapse opens a Google Calendar page in a new tab with that reminder's name and due date filled in. Nothing is sent unless you click it, and only the name and date are included. What happens on Google Calendar is covered by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+  <p>This feature is off by default. If you turn it on in Settings and then choose "Add to Google Calendar" for a reminder, NoLapse opens a Google Calendar page (in a new Chrome tab, or in your phone's browser) with that reminder's name and due date filled in. Nothing is sent unless you click it, and only the name and date are included. What happens on Google Calendar is covered by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
 
   <h2>Backups and Excel exports</h2>
-  <p>When you choose Export backup or Export to Excel, NoLapse creates a file and Chrome saves it to your computer, usually in your Downloads folder. These files stay under your control. NoLapse does not upload them anywhere.</p>
+  <p>When you choose Export backup or Export to Excel, NoLapse creates a file. In Chrome, the file is saved to your computer, usually in your Downloads folder. On Android, the file opens in the Share sheet and goes only where you choose to send or save it, for example Google Drive or email. These files stay under your control. NoLapse does not upload them anywhere itself.</p>
 
   <h2>Deleting your data</h2>
-  <p>You can delete everything at any time in Settings → Delete all data. Removing the extension from Chrome also deletes all NoLapse data stored by Chrome.</p>
+  <p>You can delete everything at any time in Settings → Delete all data. Removing the extension from Chrome, or uninstalling the Android app, also deletes all NoLapse data on that device.</p>
 
   <h2>Children</h2>
   <p>NoLapse is not directed at children under 13 and does not knowingly handle children's information.</p>
@@ -82,7 +91,7 @@
   <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
 
   <h2>Contact</h2>
-  <p>NoLapse is developed by Bhargav. Questions about this policy or the extension: <a href="mailto:bhargav4142@gmail.com">bhargav4142@gmail.com</a></p>
+  <p>NoLapse is developed by Bhargav. Questions about this policy, the extension or the app: <a href="mailto:bhargav4142@gmail.com">bhargav4142@gmail.com</a></p>
 </main>
 </body>
 </html>
